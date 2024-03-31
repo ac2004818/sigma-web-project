@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Nasser",
+    "surname": "Ahmad",
+    "shipping_address": "123 Main St, City, Country",
+    "username": "Nasser_ahmad",
+    "password": "password123",
+    "balance": 103595,
+    "purchaseHistory": []
+  },
+  {
+    "name": "Saood",
+    "surname": "Turkey",
+    "shipping_address": "456 Elm St, Town, Country",
+    "username": "Saood_turkey",
+    "password": "password456",
+    "balance": 68379,
+    "purchaseHistory": [
+      {
+        "itemId": "2",
+        "itemName": "iPhone",
+        "itemURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15pro-digitalmat-gallery-1-202309_GEO_US?wid=728&hei=666&fmt=png-alpha&.v=1693346851451",
+        "quantity": 2,
+        "totalPrice": 9398,
+        "date": "2024-03-30T23:40:02.916Z"
+      }
+    ]
+  },
+  {
+    "name": "Ai",
+    "surname": "Saleh",
+    "shipping_address": "789 Oak St, Village, Country",
+    "username": "Ai_saleh",
+    "password": "password789",
+    "balance": 2000
+  }
+]

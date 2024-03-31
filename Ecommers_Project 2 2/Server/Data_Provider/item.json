@@ -1,0 +1,186 @@
+[
+  {
+    "id": "1",
+    "name": "Oppo A15",
+    "price": 1250,
+    "quantity": 90,
+    "sellerId": "101",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2021/03/A15ss.png",
+    "description": "A high-quality smartphone with advanced features.",
+    "saleHistory": []
+  },
+  {
+    "id": "2",
+    "name": "iPhone",
+    "price": 4699,
+    "quantity": 88,
+    "sellerId": "101",
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15pro-digitalmat-gallery-1-202309_GEO_US?wid=728&hei=666&fmt=png-alpha&.v=1693346851451",
+    "description": "The latest model of iPhone with advanced technology.",
+    "saleHistory": [
+      {
+        "buyerUsername": "Saood_turkey",
+        "sellerUsername": "Ali hyder",
+        "quantity": 2,
+        "totalPrice": 9398,
+        "date": "2024-03-30T23:40:02.908Z"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Samsung Galaxy",
+    "price": 3099,
+    "quantity": 77,
+    "sellerId": "101",
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/pk/feature/164652107/pk-feature-refined-design-with-glossy-finish-537142188?$FB_TYPE_A_JPG$",
+    "description": "A popular Android smartphone known for its performance and design.",
+    "saleHistory": []
+  },
+  {
+    "id": "4",
+    "name": "Redmi A2 plus",
+    "price": 1600,
+    "quantity": 85,
+    "sellerId": "101",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2023/10/A2-Plus.jpg",
+    "description": "A smartphone known for its exceptional camera and software experience."
+  },
+  {
+    "id": "5",
+    "name": "OnePlus",
+    "price": 1250,
+    "quantity": 70,
+    "sellerId": "102",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2023/10/Note-12-6GB.jpg",
+    "description": "A flagship killer smartphone offering premium features at an affordable price."
+  },
+  {
+    "id": "6",
+    "name": "Xiaomi Redmi",
+    "price": 1040,
+    "quantity": 95,
+    "sellerId": "102",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2021/06/10s.png",
+    "description": "A budget-friendly smartphone with impressive performance and battery life."
+  },
+  {
+    "id": "7",
+    "name": "MacBook Pro",
+    "price": 4099,
+    "quantity": 49,
+    "sellerId": "102",
+    "imageUrl": "https://www.czone.com.pk/Images/Thumbnails/13-czone.com.pk-1540-13518-100822053601.jpg",
+    "description": "A powerful laptop designed for professionals and creatives.",
+    "saleHistory": []
+  },
+  {
+    "id": "8",
+    "name": "Lenovo Legion",
+    "price": 2499,
+    "quantity": 58,
+    "sellerId": "102",
+    "imageUrl": "https://www.czone.com.pk/Images/Thumbnails/27-czone.com.pk-1540-15842-270324104313.jpg",
+    "description": "A premium laptop with a stunning display and powerful performance.",
+    "saleHistory": []
+  },
+  {
+    "id": "9",
+    "name": "HP Spectre",
+    "price": 2000,
+    "quantity": 70,
+    "sellerId": "102",
+    "imageUrl": "https://www.czone.com.pk/images/products/67-czone.com.pk-1540-15189-070923095652.jpg",
+    "description": "An ultra-thin and lightweight laptop with impressive battery life."
+  },
+  {
+    "id": "10",
+    "name": "MSI Gaming laptop",
+    "price": 8399,
+    "quantity": 75,
+    "sellerId": "103",
+    "imageUrl": "https://www.czone.com.pk/images/products/13-czone.com.pk-1540-14787-120623103853.jpg",
+    "description": "A sleek and stylish laptop with powerful performance for productivity."
+  },
+  {
+    "id": "11",
+    "name": "Lenovo IdeaPad",
+    "price": 3199,
+    "quantity": 55,
+    "sellerId": "103",
+    "imageUrl": "https://www.czone.com.pk/images/products/60-czone.com.pk-1540-14926-010823103313.jpg",
+    "description": "A durable and reliable laptop built for business professionals."
+  },
+  {
+    "id": "12",
+    "name": "Acer Swift",
+    "price": 2199,
+    "quantity": 65,
+    "sellerId": "103",
+    "imageUrl": "https://www.czone.com.pk/images/products/1-czone.com.pk-1-1540-15638-170124082635.jpg",
+    "description": "An affordable yet powerful laptop with a sleek design."
+  },
+  {
+    "id": "13",
+    "name": "Apple Watch",
+    "price": 2599,
+    "quantity": 40,
+    "sellerId": "103",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2020/10/66.png",
+    "description": "Premium wireless headphones with industry-leading noise cancellation technology.",
+    "saleHistory": []
+  },
+  {
+    "id": "14",
+    "name": "Xiaomi Smart Watch",
+    "price": 950,
+    "quantity": 45,
+    "sellerId": "103",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2021/04/LL.png",
+    "description": "Comfortable and immersive headphones with active noise cancellation."
+  },
+  {
+    "id": "15",
+    "name": "Riversong Watch",
+    "price": 1500,
+    "quantity": 35,
+    "sellerId": "103",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2020/08/Watch.png  ",
+    "description": "Wireless earbuds with active noise cancellation and customizable fit."
+  },
+  {
+    "id": "16",
+    "name": "Mi Band 5 Fitness Tracker",
+    "price": 1250,
+    "quantity": 30,
+    "sellerId": "103",
+    "imageUrl": "https://myshop.pk/pub/media/catalog/product/cache/badc1d10053babad93ba2ef2941284a4/x/i/xiomi_pad_se_myshop-pk-2.jpg ",
+    "description": "High-end open-back headphones with exceptional audio quality."
+  },
+  {
+    "id": "17",
+    "name": "HUAWEI Mini Speaker",
+    "price": 850,
+    "quantity": 55,
+    "sellerId": "103",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2020/08/1.png ",
+    "description": "Gaming headphones with immersive sound and customizable lighting."
+  },
+  {
+    "id": "18",
+    "name": "Mi Pocket Speaker 2",
+    "price": 750,
+    "quantity": 40,
+    "sellerId": "103",
+    "imageUrl": "https://phoneexpress.pk/wp-content/uploads/2020/07/speaker.png",
+    "description": "Stylish wireless headphones with adaptive noise cancellation."
+  },
+  {
+    "name": "charger",
+    "price": 79,
+    "quantity": 1,
+    "sellerId": "101",
+    "imageUrl": "https://static.alaneesqatar.qa/2024/03/Anker-323-Ultra-Compact-2-Port-Charger-33W-A2331K11-Black-1_MjNamFLrPB.png?tr=w-303,q-80",
+    "id": "19"
+  }
+]

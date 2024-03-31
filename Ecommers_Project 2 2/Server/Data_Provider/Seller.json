@@ -1,0 +1,24 @@
+[
+	{
+		"id": "101",
+		"username": "Ali hyder",
+		"password": "password123",
+		"userType": "seller",
+		"companyName": "Green Fashion",
+		"bankAccount": "1234567890"
+	},
+	{
+		"id": "102",
+		"username": "Muzamil shaikh",
+		"password": "secret456",
+		"userType": "seller",
+		"companyName": "Brown Apparel",
+		"bankAccount": "9876543210"
+	},
+	{
+		"id": "103",
+		"username": "admin_user",
+		"password": "admin123",
+		"userType": "admin"
+	}
+]
