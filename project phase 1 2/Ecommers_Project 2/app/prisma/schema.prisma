@@ -1,0 +1,66 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// Define the data model for items
+model Item {
+  id          String   @id @default(cuid())
+  name        String
+  price       Float
+  quantity    Int
+  sellerId    String
+  seller      Seller   @relation(fields: [sellerId], references: [id])
+  imageUrl    String
+  description String
+  transactions Transaction[]
+}
+
+// Define the data model for sellers
+model Seller {
+  id          String   @id
+  username    String   @unique
+  password    String
+  companyName String
+  bankAccount String
+  items       Item[]
+  transactions Transaction[]
+}
+
+// Define the data model for buyers
+model Buyer {
+  id           String       @id
+  username     String       @unique
+  password     String
+  firstName    String
+  lastName     String
+  address      String
+  city         String
+  Country      String
+  balance      Float
+  transactions Transaction[]
+}
+
+// Define the data model for transactions
+model Transaction {
+  id         String   @id @default(cuid())
+  itemId     String
+  sellerId   String
+  buyerId    String
+  quantity   Int
+  totalPrice Float
+  date       DateTime @updatedAt
+  item       Item    @relation(fields: [itemId], references: [id])
+  buyer      Buyer    @relation(fields: [buyerId], references: [id])
+  seller     Seller   @relation(fields: [sellerId], references: [id])
+}

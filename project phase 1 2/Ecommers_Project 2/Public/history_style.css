@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#purchase-history {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Dynamic grid with 3 columns */
+    gap: 20px; /* Adjust the gap between grid items */
+}
+
+.purchase-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.purchase-item h3 {
+    margin-top: 0;
+}
+
+.purchase-item p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    justify-content: end;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+:root {
+    --dark-color-lighten: #f2f5ff;
+}
+
+/*===== RESET =====*/
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--dark-color-lighten);
+    font-family: "Montserrat", sans-serif;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    color: var(--text);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+.container {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust the width of each container to fit three items in a row */
+    margin: 50px; /* Add margin between items */
+}
+
+.card {
+    position: relative;
+    padding: 1rem;
+    height: 450px; /* Set a fixed height for consistency */
+    box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+    border-radius: 0.9rem;
+    background-color: var(--grey-card);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.product-image {
+    background-size: cover;
+    background-position: center;
+    height: 230px; 
+    width: auto; 
+    max-width: 100%; 
+    transform: translate(0, -1.5rem);
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-info h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.product-info p {
+    margin: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+
+.buy-btn {
+    background-color: var(--btn);
+    padding: 0.6rem 3.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 300ms ease;
+}
+
+.buy-btn:hover {
+    background-color: var(--btn-hover);
+}

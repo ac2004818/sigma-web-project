@@ -1,0 +1,395 @@
+[
+	[
+		{
+			"id": "1",
+			"name": "iPhone 13",
+			"price": 999,
+			"quantity": 20,
+			"sellerId": "1",
+			"imageUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone13_hero_09142021_inline.jpg.large.jpg",
+			"description": "The latest iPhone model with advanced features."
+		},
+		{
+			"id": "2",
+			"name": "Samsung Galaxy S21",
+			"price": 899,
+			"quantity": 15,
+			"sellerId": "2",
+			"imageUrl": "https://92mobiles.pk/wp-content/uploads/thumbs_dir/samsung-galaxy-s21-fe-5g-128gb-navy-locked-to-t-mobile-renewed-qigfye3f3fts9a1efh4trkj6fucr86ssys2nf04seg.jpg",
+			"description": "Flagship Samsung smartphone with stunning display."
+		},
+		{
+			"id": "3",
+			"name": "MacBook Pro",
+			"price": 1499,
+			"quantity": 10,
+			"sellerId": "3",
+			"imageUrl": "https://alaqsa.com.pk/wp-content/uploads/2022/08/Macbook-Pro-2017-13-Touch-Bar.jpeg",
+			"description": "Powerful MacBook with M1 chip for professional use."
+		},
+		{
+			"id": "4",
+			"name": "Dell XPS 15",
+			"price": 1399,
+			"quantity": 8,
+			"sellerId": "4",
+			"imageUrl": "https://www.paklap.pk/media/catalog/product/cache/2cc443e44e97595ea39006016c876eaa/d/e/dell-xps-9520-12thgen-ci7-rtx3050-touchscreen-silver-laptop-price-in-pakistan.jpg",
+			"description": "Premium laptop with stunning display and performance."
+		}
+	],
+	[
+		{
+			"id": "1",
+			"username": "applestore",
+			"password": "apple123",
+			"companyName": "Apple Store",
+			"bankAccount": "1234567890"
+		},
+		{
+			"id": "2",
+			"username": "samsungstore",
+			"password": "samsung456",
+			"companyName": "Samsung Store",
+			"bankAccount": "0987654321"
+		},
+		{
+			"id": "3",
+			"username": "macseller",
+			"password": "mac123",
+			"companyName": "Mac Seller",
+			"bankAccount": "1357924680"
+		},
+		{
+			"id": "4",
+			"username": "dellseller",
+			"password": "dell456",
+			"companyName": "Dell Seller",
+			"bankAccount": "8642097531"
+		},
+		{
+			"id": "5",
+			"username": "huaweistore",
+			"password": "huawei789",
+			"companyName": "Huawei Store",
+			"bankAccount": "4567890123"
+		}
+	],
+	[
+		{
+			"id": "1",
+			"username": "johnbuyer",
+			"password": "john123",
+			"firstName": "John",
+			"lastName": "Doe",
+			"address": "123 Main St",
+			"city": "New York",
+			"Country": "USA",
+			"balance": 5000
+		},
+		{
+			"id": "2",
+			"username": "janetbuyer",
+			"password": "janet456",
+			"firstName": "Janet",
+			"lastName": "Smith",
+			"address": "456 Elm St",
+			"city": "Los Angeles",
+			"Country": "USA",
+			"balance": 7000
+		},
+		{
+			"id": "3",
+			"username": "mikebuyer",
+			"password": "mike789",
+			"firstName": "Mike",
+			"lastName": "Johnson",
+			"address": "789 Oak St",
+			"city": "Chicago",
+			"Country": "USA",
+			"balance": 6000
+		},
+		{
+			"id": "4",
+			"username": "KKbuyer",
+			"password": "newpassword123",
+			"firstName": "kk",
+			"lastName": "kantesh",
+			"address": "123 Elm St",
+			"city": "Los Angeles",
+			"Country": "USA",
+			"balance": 7000
+		}
+	],
+	[
+		{
+			"id": "1",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 1998,
+			"date": "2024-04-01T10:00:00Z"
+		},
+		{
+			"id": "2",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 999,
+			"date": "2024-04-02T11:30:00Z"
+		},
+		{
+			"id": "3",
+			"itemId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 899,
+			"date": "2024-04-03T13:45:00Z"
+		},
+		{
+			"id": "4",
+			"itemId": "3",
+			"sellerId": "3",
+			"buyerId": "3",
+			"quantity": 1,
+			"totalPrice": 1499,
+			"date": "2024-04-04T09:20:00Z"
+		},
+		{
+			"id": "5",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 5,
+			"totalPrice": 4995,
+			"date": "2024-04-05T15:10:00Z"
+		},
+		{
+			"id": "6",
+			"itemId": "4",
+			"sellerId": "4",
+			"buyerId": "4",
+			"quantity": 1,
+			"totalPrice": 1399,
+			"date": "2024-04-06T14:00:00Z"
+		},
+		{
+			"id": "7",
+			"itemId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 899,
+			"date": "2024-04-07T16:30:00Z"
+		},
+		{
+			"id": "8",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "2",
+			"quantity": 3,
+			"totalPrice": 2997,
+			"date": "2024-04-08T17:45:00Z"
+		},
+		{
+			"id": "9",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 4,
+			"totalPrice": 3996,
+			"date": "2024-04-09T18:20:00Z"
+		},
+		{
+			"id": "10",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 3,
+			"totalPrice": 2997,
+			"date": "2024-04-10T20:00:00Z"
+		},
+		{
+			"id": "11",
+			"itemId": "2",
+			"sellerId": "2",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 1798,
+			"date": "2024-04-11T09:30:00Z"
+		},
+		{
+			"id": "12",
+			"itemId": "3",
+			"sellerId": "3",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 2998,
+			"date": "2024-04-12T10:45:00Z"
+		},
+		{
+			"id": "13",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 999,
+			"date": "2024-04-13T11:20:00Z"
+		},
+		{
+			"id": "14",
+			"itemId": "4",
+			"sellerId": "4",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 2798,
+			"date": "2024-04-14T12:00:00Z"
+		},
+		{
+			"id": "15",
+			"itemId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 899,
+			"date": "2024-04-15T13:15:00Z"
+		},
+		{
+			"id": "16",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 1998,
+			"date": "2024-04-16T14:30:00Z"
+		},
+		{
+			"id": "17",
+			"itemId": "3",
+			"sellerId": "3",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 1499,
+			"date": "2024-04-17T15:45:00Z"
+		},
+		{
+			"id": "18",
+			"itemId": "4",
+			"sellerId": "4",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 1399,
+			"date": "2024-04-18T16:00:00Z"
+		},
+		{
+			"id": "19",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 1998,
+			"date": "2024-04-19T17:15:00Z"
+		},
+		{
+			"id": "20",
+			"itemId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 1798,
+			"date": "2024-04-20T18:30:00Z"
+		},
+		{
+			"id": "21",
+			"itemId": "3",
+			"sellerId": "3",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 1499,
+			"date": "2024-04-21T19:45:00Z"
+		},
+		{
+			"id": "22",
+			"itemId": "4",
+			"sellerId": "4",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 2798,
+			"date": "2024-04-22T20:00:00Z"
+		},
+		{
+			"id": "23",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 999,
+			"date": "2024-04-23T21:15:00Z"
+		},
+		{
+			"id": "24",
+			"itemId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 899,
+			"date": "2024-04-24T22:30:00Z"
+		},
+		{
+			"id": "25",
+			"itemId": "3",
+			"sellerId": "3",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 2998,
+			"date": "2024-04-25T23:45:00Z"
+		},
+		{
+			"id": "26",
+			"itemId": "4",
+			"sellerId": "4",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 1399,
+			"date": "2024-04-26T00:00:00Z"
+		},
+		{
+			"id": "27",
+			"itemId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 1998,
+			"date": "2024-04-27T01:15:00Z"
+		},
+		{
+			"id": "28",
+			"itemId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 899,
+			"date": "2024-04-28T02:30:00Z"
+		},
+		{
+			"id": "29",
+			"itemId": "3",
+			"sellerId": "3",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 1499,
+			"date": "2024-04-29T03:45:00Z"
+		},
+		{
+			"id": "30",
+			"itemId": "4",
+			"sellerId": "4",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 2798,
+			"date": "2024-04-30T04:00:00Z"
+		}
+	]
+]

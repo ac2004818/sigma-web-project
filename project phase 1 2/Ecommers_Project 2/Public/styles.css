@@ -1,0 +1,402 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  background-size: cover;
+  background-color: white;
+    
+}
+main {
+    padding-bottom: 50px; 
+}
+.about-us-button {
+  display: inline-block; /* Ensure the anchor tag behaves like a block element */
+  text-decoration: none; /* Remove underline from anchor tag */
+  color: inherit; /* Inherit text color from parent */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us, .contact-info {
+  margin-bottom: 20px;
+}
+
+.about-us h3, .contact-info h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  color: #ccc;
+}
+
+/* Adjust styles as needed */
+
+
+button {
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  padding: 0 20px;
+  background: #19191c;
+  color: #f9f9f9;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 120px;
+}
+
+.navbar-logo-icon {
+  height: 28px;
+}
+
+@media only screen and (min-width: 400px) {
+  .navbar-logo-icon {
+    height: 24px;
+  }
+}
+
+.navbar-logo-text {
+  display: none;
+  height: 19px;
+}
+
+@media only screen and (min-width: 400px) {
+  .navbar-logo-text {
+    display: block;
+  }
+}
+
+.navbar-menu {
+  display: flex;
+  transition: 0.3s;
+  
+}
+
+@media only screen and (min-width: 100px) {
+  .navbar-menu {
+    
+    justify-content: center;
+    margin-right: 120px;
+  }
+}
+
+.navbar-menu > button {
+
+  position: relative;
+    flex: 0 0 200px;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    height: 50px;
+    width: 36px;
+
+}
+
+
+
+.navbar-menu > button.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  translate: -50% 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+
+}
+
+
+main {
+    padding: 20px;
+}
+
+/* Specific page styles */
+.login-section, .purchase-section {
+    width: 50%;
+    margin: auto;
+}
+/* nav form{
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: top 0.3s ease, opacity 0.1s ease;
+} */
+form {
+    margin-bottom: 2s0px;
+    width: 500px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+:root {
+  --dark-color-lighten: #f2f5ff;
+  --grey-card: grey;
+  --blue-card: #4bb7e6;
+  --btn: #141414;
+  --btn-hover: #3a3a3a;
+  --text: #fbf7f7;
+}
+
+/*===== RESET =====*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--dark-color-lighten);
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  color: var(--text);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+
+#items-list {
+    display: flex; /* Make the list a flex container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust the width of each container to fit three items in a row */
+    margin: 50px; /* Add margin between items */
+}
+
+.card {
+  position: relative;
+  padding: 1rem;
+  width: 350px;
+  height: 450px;
+  margin: 1rem;
+  box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+  border-radius: 0.9rem;
+  background-color: var(--grey-card);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.card-blue {
+  background: var(--blue-card);
+}
+
+.product-image {
+  background-size: cover;
+  background-position: center;
+  height: 230px; 
+  width: auto; 
+  max-width: 100%; 
+  transform: translate(0, -1.5rem);
+  
+}
+
+
+/* .product-image {
+  background-position: center;
+  background-size: cover;
+  height: 230px;
+  width: 100%;
+  border-radius: 12px;
+ 
+} */
+
+
+
+.product-info {
+  text-align: center;
+}
+
+.product-info h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.product-info p {
+  margin: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.buy-btn {
+  background-color: var(--btn);
+  padding: 0.6rem 3.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 300ms ease;
+}
+
+.buy-btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.fav {
+  box-sizing: border-box;
+  background: #fff;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #000;
+  display: grid;
+  place-items: center;
+}
+
+.svg {
+  height: 25px;
+  width: 25px;
+  fill: #fff;
+  transition: all 500ms ease;
+}
+
+.fav:hover .svg {
+  fill: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 2rem 0;
+    width: 100%;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+/* Search bar styling */
+#search-form {
+    
+    display: flex;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#search-input:focus {
+    border-color: #007bff;
+}
+
+#search-input::placeholder {
+    color: #999;
+}
+
+/* Search button styling */
+button {
+    padding: 11px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 20px; /* Adjust the value to make the button more or less round */
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+
+
